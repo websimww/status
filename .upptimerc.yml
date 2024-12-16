@@ -5,23 +5,47 @@ repo: status # The name of this repository
 sites:
   - name: Avatars
     url: https://avatars.websim.ai/
+    expectedStatusCodes:
+      - 200
+      - 404
+      - 301
   - name: Images
     url: https://images.websim.ai/
+    expectedStatusCodes:
+      - 200
+      - 404
+      - 301
   - name: Internal
     url: https://internal.websim.ai/
+    expectedStatusCodes:
+      - 200
+      - 404
+      - 301
   - name: OG
     url: https://og.websim.ai/
+    expectedStatusCodes:
+      - 200
+      - 404
+      - 301
   - name: Omegabus
     url: https://omegabus.websim.ai/
+    expectedStatusCodes:
+      - 200
+      - 404
+      - 301
   - name: Page Images
     url: https://page-images.websim.ai/
+    expectedStatusCodes:
+      - 200
+      - 404
+      - 301
   - name: API
     url: https://api.websim.ai/
+    expectedStatusCodes:
+      - 200
+      - 404
 
 status-website:
-  # Add your custom domain name, or remove the `cname` line if you don't have a domain
-  # Uncomment the `baseUrl` line if you don't have a custom domain and add your repo name there
-  # cname: demo.upptime.js.org
   baseUrl: /status
   logoUrl: https://styles.redditmedia.com/t5_bdssnd/styles/communityIcon_beaahehzktjd1.png
   favicon: https://styles.redditmedia.com/t5_bdssnd/styles/communityIcon_beaahehzktjd1.png

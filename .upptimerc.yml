@@ -43,7 +43,6 @@ sites:
     url: https://api.websim.ai/
     expectedStatusCodes:
       - 200
-      - 404
 
 status-website:
   baseUrl: /status
@@ -57,5 +56,7 @@ status-website:
     - title: Discord
       href: https://discord.gg/aqYTb9sH4Z
 
+i18n:
+  footer: Join the [Websim Discord](https://discord.gg/aqYTb9sH4Z) if you are having any problems.
 # Upptime also supports notifications, assigning issues, and more
 # See https://upptime.js.org/docs/configuration

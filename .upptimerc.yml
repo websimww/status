@@ -49,6 +49,7 @@ status-website:
   baseUrl: /status
   logoUrl: https://styles.redditmedia.com/t5_bdssnd/styles/communityIcon_beaahehzktjd1.png
   favicon: https://styles.redditmedia.com/t5_bdssnd/styles/communityIcon_beaahehzktjd1.png
+  themeUrl: https://wwwebsim.glitch.me/upptime.css
   name: Websim Status
   navbar:
     - title: Websim

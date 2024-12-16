@@ -43,6 +43,7 @@ sites:
     url: https://api.websim.ai/
     expectedStatusCodes:
       - 200
+      - 404
 
 status-website:
   baseUrl: /status

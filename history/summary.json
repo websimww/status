@@ -113,18 +113,16 @@
     "icon": "https://icons.duckduckgo.com/ip3/api.websim.ai.ico",
     "slug": "api",
     "status": "up",
-    "uptime": "88.18%",
-    "uptimeDay": "88.18%",
-    "uptimeWeek": "88.18%",
-    "uptimeMonth": "88.18%",
-    "uptimeYear": "88.18%",
+    "uptime": "100.00%",
+    "uptimeDay": "100.00%",
+    "uptimeWeek": "100.00%",
+    "uptimeMonth": "100.00%",
+    "uptimeYear": "100.00%",
     "time": 474,
     "timeDay": 474,
     "timeWeek": 474,
     "timeMonth": 474,
     "timeYear": 474,
-    "dailyMinutesDown": {
-      "2024-12-16": 6
-    }
+    "dailyMinutesDown": {}
   }
 ]

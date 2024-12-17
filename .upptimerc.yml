@@ -21,6 +21,7 @@ sites:
     url: https://internal.websim.ai/
     expectedStatusCodes:
       - 301
+      - 200
   - name: OG
     url: https://og.websim.ai/
     expectedStatusCodes:

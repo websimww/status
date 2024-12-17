@@ -1,7 +1,7 @@
-url: https://api.websim.ai/
+url: https://api.websim.ai/api/v1/sites/LOGGED_IN/html
 status: up
-code: 404
-responseTime: 59
-lastUpdated: 2024-12-16T23:10:28.485Z
+code: 200
+responseTime: 1155
+lastUpdated: 2024-12-17T20:30:31.393Z
 startTime: 2024-12-16T06:59:06.086Z
 generator: Upptime <https://github.com/upptime/upptime>

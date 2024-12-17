@@ -3,8 +3,12 @@ owner: websimww # Your GitHub organization or username, where this repository li
 repo: status # The name of this repository
 
 sites:
+  - name: Main Site:
+    url: https://websim.ai/
+    expectedStatusCodes:
+      - 200
   - name: Avatars
-    url: https://websim.ai/default_avatar.png
+    url: https://avatars.websim.ai/13ac4d9a-fce5-4eef-a688-221884ad4235/CQOqjQvxkM47r4gME.webp
     expectedStatusCodes:
       - 200
   - name: Images

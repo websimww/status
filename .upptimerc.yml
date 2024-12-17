@@ -4,35 +4,33 @@ repo: status # The name of this repository
 
 sites:
   - name: Avatars
-    url: https://avatars.websim.ai/
+    url: https://websim.ai/default_avatar.png
     expectedStatusCodes:
       - 200
-      - 404
-      - 301
   - name: Images
-    url: https://images.websim.ai/
+    url: https://images.websim.ai/v1/site/Admdc3N7DvV192eus/600
     expectedStatusCodes:
       - 200
       - 404
-      - 301
+  - name: Project Screenshots
+    url: https://project-screenshots.websim.ai/0193a922-882e-7cfc-8b0d-960323df1155
+    expectedStatusCodes:
+      - 200
+      - 404
   - name: Internal
     url: https://internal.websim.ai/
     expectedStatusCodes:
-      - 200
-      - 404
       - 301
   - name: OG
     url: https://og.websim.ai/
     expectedStatusCodes:
       - 200
       - 404
-      - 301
   - name: Omegabus
     url: https://omegabus.websim.ai/
     expectedStatusCodes:
       - 200
       - 404
-      - 301
   - name: Page Images
     url: https://page-images.websim.ai/
     expectedStatusCodes:
@@ -40,10 +38,9 @@ sites:
       - 404
       - 301
   - name: API
-    url: https://api.websim.ai/
+    url: https://api.websim.ai/api/v1/sites/LOGGED_IN/html
     expectedStatusCodes:
       - 200
-      - 404
 
 status-website:
   baseUrl: /status
@@ -56,6 +53,7 @@ status-website:
       href: https://websim.ai/
     - title: Discord
       href: https://discord.gg/aqYTb9sH4Z
+  customHeadHtml: '<script src="https://cdn.counter.dev/script.js" data-id="be5161a4-e496-47ed-9d19-3b758bba110b" data-utcoffset="-5"></script>'
 
 i18n:
   footer: Join the [Websim Discord](https://discord.gg/aqYTb9sH4Z) if you are having any problems.

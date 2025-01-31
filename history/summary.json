@@ -4,18 +4,20 @@
     "url": "https://websim.ai/",
     "icon": "https://icons.duckduckgo.com/ip3/websim.ai.ico",
     "slug": "main-site",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.99%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 903,
-    "timeDay": 2019,
-    "timeWeek": 1357,
-    "timeMonth": 1084,
-    "timeYear": 903,
-    "dailyMinutesDown": {}
+    "time": 893,
+    "timeDay": 1223,
+    "timeWeek": 1240,
+    "timeMonth": 1064,
+    "timeYear": 893,
+    "dailyMinutesDown": {
+      "2025-01-31": 0
+    }
   },
   {
     "name": "Projects",
@@ -166,17 +168,19 @@
     "url": "https://api.websim.ai/api/v1/sites/LOGGED_IN/html",
     "icon": "https://icons.duckduckgo.com/ip3/api.websim.ai.ico",
     "slug": "api",
-    "status": "up",
+    "status": "down",
     "uptime": "100.00%",
-    "uptimeDay": "100.00%",
+    "uptimeDay": "99.99%",
     "uptimeWeek": "100.00%",
     "uptimeMonth": "100.00%",
     "uptimeYear": "100.00%",
-    "time": 593,
-    "timeDay": 129,
-    "timeWeek": 706,
-    "timeMonth": 690,
-    "timeYear": 593,
-    "dailyMinutesDown": {}
+    "time": 615,
+    "timeDay": 987,
+    "timeWeek": 849,
+    "timeMonth": 725,
+    "timeYear": 615,
+    "dailyMinutesDown": {
+      "2025-01-31": 0
+    }
   }
 ]
